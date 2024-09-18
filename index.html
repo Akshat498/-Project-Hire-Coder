@@ -1,0 +1,1589 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/input.css">
+    <link rel="stylesheet" href="/src/input.css">
+    <!-- icon-link -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+
+    <!-- slider link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- end  -->
+    <title>Hirecoder</title>
+</head>
+
+<body>
+    <section class="bg-image 810px flex items-center flex-col">
+        <div class="container mx-auto w-4/5">
+            <div class=" mx-auto ">
+                <nav class="w-full flex items-center justify-between py-3 mb-[49px]">
+                    <div>
+                        <img src="/src/images/svg/Group 48095604.svg" alt="">
+                        <p class="font-light text-lightWhite text-xs inter text-[#F7F7F7]">Video chat & Remote Coder
+                            OnDemand</p>
+                    </div>
+                    <ul id="mobile_navbar"
+                        class="flex gap-6 items-center lg:relative fixed max-lg:w-full max-lg:h-full max-lg:bg-yellow-500 z-10 max-lg:translate-x-full left-0 top-0 max-lg:flex-col max-lg:justify-center max-lg:items-center transition ease-out duration-250 max-lg:min-h-screen ">
+                        <li><a href="#" class="font-medium text-white inter">Jobs</a>
+                        </li>
+                        <li><a href="#" class="font-medium text-white inter">Coders</a>
+                        </li>
+                        <li><button
+                                class="px-7 py-3 rounded-full font-xl text-lg bg-white text-black hover:bg-[black] hover:text-white transition-all duration-300 outfit">
+                                Sign In</button></li>
+                    </ul>
+                    <div class="relative z-20 flex gap-x-4 lg:hidden">
+                        <div class="relative size-8 rounded-[100px]" id="toggle_button">
+                            <div
+                                class="absolute h-full w-full transition-all duration-300 show_nav text-black font-bold text-[30px] ">
+                                <ion-icon name="menu-outline"></ion-icon>
+                            </div>
+                            <div
+                                class="absolute h-full w-full text-black font-bold text-[30px] transition-all duration-300 close_nav opacity-0">
+                                <ion-icon name="close-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <p class="text-white mt-[40px]">Coder on demand</p>
+                <p class="font-semibold  text-5xl target text-white flex justify-center ">Video Chat And Hire Top 1%
+                    Remote
+                    Coder Same Day </p>
+
+                <div class="flex gap-2 mt-[90px]">
+                    <button
+                        class="bg-transparent  border  rounded-full  px-[16px]  py-2 flex text-white    hover:bg-white  hover:text-black">Website
+                        Design</button>
+                    <div class="">
+                        <button
+                            class="bg-transparent  border rounded-full   px-[16px]  py-2 text-white  hover:bg-white  hover:text-black">Java
+                            Script</button>
+
+                        <button
+                            class="bg-transparent border rounded-full hover:bg-white  hover:text-black  px-[16px]  py-2 text-white ">UI
+                            Design</button>
+
+                        <button
+                            class="bg-transparent border rounded-full  px-[16px]  py-2 text-white  hover:bg-white  hover:text-black">HTML</button>
+
+                        <button
+                            class="bg-transparent border rounded-full  px-[16px]  py-2 text-white  hover:bg-white  hover:text-black">Bootstrap</button>
+
+                        <button
+                            class="bg-transparent border rounded-full  px-[16px]  py-2 text-white  hover:bg-white  hover:text-black">CSS</button>
+                    </div>
+                </div>
+                <div class="flex flex-wrap mt-2">
+                    <div class="px-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 ">
+                        <div class="card-1 bg-white mt-5  rounded-lg  hover:scale-[1.02]">
+                            <img class="items-center flex px-2 pt-2 " src="/src/images/Rectangle 8.png" alt="">
+                            <div class="flex justify-between">
+                                <div class="">
+                                    <p class="pl-2 pt-2">Wade Warren</p>
+                                    <p class="text-md font-md text-gray-500 pl-2">HTML Developer</p>
+                                </div>
+                                <div class="">
+                                    <p class="pt-2 pr-2">$80/hr</p>
+                                    <div class="flex">
+                                        <img src="/src/images/svg/Star 1.svg" alt="">
+                                        <p>4.5</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <button
+                                    class="border border-gray-200  rounded-full text-xs font-medium text-gray-700  py-2 ml-2  px-[10px] hover:bg-green hover:text-white">HTML</button>
+
+                                <button
+                                    class="border border-gray-200 rounded-full py-2  px-[10px] text-xs text-gray-700 font-medium hover:bg-green hover:text-white">Bootstrap</button>
+
+                                <button
+                                    class="border border-gray-200 rounded-full py-2  px-[10px] text-xs text-gray-700 font-medium hover:bg-green hover:text-white">CSS</button>
+                            </div>
+
+                            <button
+                                class="py-3  px-[20px] bg-green-700 rounded-full bg-green  text-white  text-lg  font-xl mt-4 mb-2 ml-2  hover:border-2 hover:border-green hover:bg-white hover:text-green">Chat
+                                Now</button>
+                        </div>
+                    </div>
+                    <div class="px-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 ">
+                        <div class="card-1 bg-white mt-5  rounded-lg  hover:scale-[1.02]">
+                            <img class="items-center flex px-2 pt-2 " src="/src/images/Rectangle 8 (1).png" alt="">
+                            <div class="flex justify-between">
+                                <div class="">
+                                    <p class="pl-2 pt-2">John Broun</p>
+                                    <p class="text-md font-md text-gray-500 pl-2">HTML Developer</p>
+                                </div>
+                                <div class="">
+                                    <p class="pt-2 pr-2">$80/hr</p>
+                                    <div class="flex">
+                                        <img src="/src/images/svg/Star 1.svg" alt="">
+                                        <p>4.5</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <button
+                                    class="border border-gray-200  rounded-full text-xs font-medium text-gray-700  py-2 ml-2  px-[10px] hover:bg-green hover:text-white">Figma</button>
+
+                                <button
+                                    class="border border-gray-200 rounded-full py-2  px-[10px] text-xs text-gray-700 font-medium hover:bg-green hover:text-white">XD</button>
+                            </div>
+
+                            <button
+                                class="py-3  px-[20px] bg-green-700 rounded-full bg-green  text-white  text-lg  font-xl mt-4 mb-2 ml-2  hover:border-2 hover:border-green hover:bg-white hover:text-green">Chat
+                                Now</button>
+                        </div>
+                    </div>
+                    <div class="px-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 ">
+                        <div class="card-1 bg-white mt-5  rounded-lg  hover:scale-[1.02]">
+                            <img class="items-center flex px-2 pt-2 " src="/src/images/Rectangle 8 (2).png" alt="">
+                            <div class="flex justify-between">
+                                <div class="">
+                                    <p class="pl-2 pt-2">Mahon Kokne</p>
+                                    <p class="text-md font-md text-gray-500 pl-2">HTML Developer</p>
+                                </div>
+                                <div class="">
+                                    <p class="pt-2 pr-2">$80/hr</p>
+                                    <div class="flex">
+                                        <img src="/src/images/svg/Star 1.svg" alt="">
+                                        <p>4.5</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <button
+                                    class="border border-gray-200  rounded-full text-xs font-medium text-gray-700  py-2 ml-2  px-[10px] hover:bg-green hover:text-white">CSS
+                                    3</button>
+                            </div>
+
+                            <button
+                                class="py-3  px-[20px] bg-green-700 rounded-full bg-green  text-white  text-lg  font-xl mt-4 mb-2 ml-2  hover:border-2 hover:border-green hover:bg-white hover:text-green">Chat
+                                Now</button>
+                        </div>
+                    </div>
+                    <div class="px-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 ">
+                        <div class="card-1 bg-white mt-5  rounded-lg  hover:scale-[1.02]">
+                            <img class="items-center flex px-2 pt-2 " src="/src/images/Rectangle 8 (3).png" alt="">
+                            <div class="flex justify-between">
+                                <div class="">
+                                    <p class="pl-2 pt-2">Wade Warren</p>
+                                    <p class="text-md font-md text-gray-500 pl-2">HTML Developer</p>
+                                </div>
+                                <div class="">
+                                    <p class="pt-2 pr-2">$80/hr</p>
+                                    <div class="flex">
+                                        <img src="/src/images/svg/Star 1.svg" alt="">
+                                        <p>4.5</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <button
+                                    class="border border-gray-200  rounded-full text-xs font-medium text-gray-700  py-2 ml-2  px-[10px] hover:bg-green hover:text-white">HTML</button>
+
+                                <button
+                                    class="border border-gray-200 rounded-full py-2  px-[10px] text-xs text-gray-700 font-medium hover:bg-green hover:text-white">Bootstrap</button>
+                            </div>
+
+                            <button
+                                class="py-3  px-[20px] bg-green-700 rounded-full bg-green  text-white  text-lg  font-xl mt-4 mb-2 ml-2  hover:border-2 hover:border-green hover:bg-white hover:text-green">Chat
+                                Now</button>
+                        </div>
+                    </div>
+                    <div class="px-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 ">
+                        <div class="card-1 bg-white mt-5  rounded-lg  hover:scale-[1.02]">
+                            <img class="items-center flex px-2 pt-2 " src="/src/images/Rectangle 8.png" alt="">
+                            <div class="flex justify-between">
+                                <div class="">
+                                    <p class="pl-2 pt-2">Courtney henry</p>
+                                    <p class="text-md font-md text-gray-500 pl-2">HTML Developer</p>
+                                </div>
+                                <div class="">
+                                    <p class="pt-2 pr-2">$80/hr</p>
+                                    <div class="flex">
+                                        <img src="/src/images/svg/Star 1.svg" alt="">
+                                        <p>4.5</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <button
+                                    class="border border-gray-200  rounded-full text-xs font-medium text-gray-700  py-2 ml-2  px-[10px] hover:bg-green hover:text-white">Java</button>
+
+                                <button
+                                    class="border border-gray-200 rounded-full py-2  px-[10px] text-xs text-gray-700 font-medium hover:bg-green hover:text-white">JS</button>
+
+                                <button
+                                    class="border border-gray-200 rounded-full py-2  px-[10px] text-xs text-gray-700 font-medium hover:bg-green hover:text-white">Nuxt
+                                    JS</button>
+                            </div>
+
+                            <button
+                                class="py-3  px-[20px] bg-green-700 rounded-full bg-green  text-white  text-lg  font-xl mt-4 mb-2 ml-2  hover:border-2 hover:border-green hover:bg-white hover:text-green">Chat
+                                Now</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- slider  -->
+
+                <div class="w-4/5 mx-auto">
+                    <div class="show-seven flex pt-[52px] pb-[30px] first-slider">
+                        <div class="cursor-pointer">
+                            <svg width="180" height="29" viewBox="0 0 171 29" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect width="170.943" height="28.2138" fill="url(#pattern0_75618_563)" />
+                                <defs>
+                                    <pattern id="pattern0_75618_563" patternContentUnits="objectBoundingBox" width="1"
+                                        height="1">
+                                        <use xlink:href="#image0_75618_563"
+                                            transform="matrix(0.00513271 0 0 0.0263505 0 -0.545455)" />
+                                    </pattern>
+                                    <image id="image0_75618_563" width="195" height="69"
+                                        xlink:href="data:image/png;base64,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" />
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="cursor-pointer">
+                            <svg width="200" height="29" viewBox="0 0 160 29" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect x="0.136719" width="159.325" height="28.2138" fill="url(#pattern0_75618_567)" />
+                                <defs>
+                                    <pattern id="pattern0_75618_567" patternContentUnits="objectBoundingBox" width="1"
+                                        height="1">
+                                        <use xlink:href="#image0_75618_567"
+                                            transform="matrix(0.00674297 0 0 0.0322061 -0.155714 -0.611111)" />
+                                    </pattern>
+                                    <image id="image0_75618_567" width="195" height="69"
+                                        xlink:href="data:image/png;base64,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" />
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="cursor-pointer">
+                            <svg width="250" height="29" viewBox="0 0 212 29" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect x="0.652344" width="210.774" height="28.2138" fill="url(#pattern0_75618_566)" />
+                                <defs>
+                                    <pattern id="pattern0_75618_566" patternContentUnits="objectBoundingBox" width="1"
+                                        height="1">
+                                        <use xlink:href="#image0_75618_566"
+                                            transform="matrix(0.00513271 0 0 0.0322061 0 -0.611111)" />
+                                    </pattern>
+                                    <image id="image0_75618_566" width="195" height="69"
+                                        xlink:href="data:image/png;base64,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" />
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="cursor-pointer">
+                            <svg width="350" height="29" viewBox="0 0 212 29" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect x="0.621094" width="210.774" height="28.2138" fill="url(#pattern0_75618_561)" />
+                                <defs>
+                                    <pattern id="pattern0_75618_561" patternContentUnits="objectBoundingBox" width="1"
+                                        height="1">
+                                        <use xlink:href="#image0_75618_561"
+                                            transform="matrix(0.00513271 0 0 0.0322061 0.000874534 -0.611111)" />
+                                    </pattern>
+                                    <image id="image0_75618_561" width="195" height="69"
+                                        xlink:href="data:image/png;base64,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" />
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="cursor-pointer">
+                            <svg width="300" height="29" viewBox="0 0 44 29" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect x="0.585938" width="43.1505" height="28.2138" fill="url(#pattern0_75618_562)" />
+                                <defs>
+                                    <pattern id="pattern0_75618_562" patternContentUnits="objectBoundingBox" width="1"
+                                        height="1">
+                                        <use xlink:href="#image0_75618_562"
+                                            transform="matrix(0.0113371 0 0 0.0144928 -0.527472 0)" />
+                                    </pattern>
+                                    <image id="image0_75618_562" width="195" height="69"
+                                        xlink:href="data:image/png;base64,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" />
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="cursor-pointer">
+                            <svg width="150" height="29" viewBox="0 0 96 29" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect x="0.929688" width="94.5993" height="28.2138" fill="url(#pattern0_75618_564)" />
+                                <defs>
+                                    <pattern id="pattern0_75618_564" patternContentUnits="objectBoundingBox" width="1"
+                                        height="1">
+                                        <use xlink:href="#image0_75618_564" transform="scale(0.00512821 0.0144928)" />
+                                    </pattern>
+                                    <image id="image0_75618_564" width="195" height="69"
+                                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMMAAABFCAYAAAD3llJvAAAAAXNSR0IArs4c6QAAF5xJREFUeF7tXQl0HMWZrqrumZE11hFscy3HJsFZYgzGOEASh2ASgomN8CG1RIwhtt9iA8aakTkMyQKGcCfWZWmDIawBH8swloQxDizHYiAhgcWw6zWYbIBlE8JhWbJ8SBrNTFftfEq13mjcx2jUY6JH13s8v6ep46+/66//+v6CEq95HPA40M8B6vHB44DHgb9ywBMG7yR4HJAc8ITBOwoeBzxh8M6Ax4HBHPA0g3ciPA54msE7Ax4HPM3gnQGPA6Yc8Mwk72B4HPDMJO8MeBzwzCTvDHgc8Mwk7wx4HLDjgOczeOfD48Dh9hnKysoKA4HAKkrpaYSQRI5fQBBC9lNK3xVCvEgI2R6NRttznGvED6uvr79eCFFBCOnNdTOU0m7G2Aec821CiFdramo+yXUut8fV1taeJIRoYox9nRASN5mfUkr/EA6HZ7qx9mHTDJqmfZkQspMQUugG4ZiDc/4WpfTu0aNHb3n44Ydjbs07EuZpamoao+t6i67r51Lq2md8TwhRFwwGNyxZsmTf582H5ubmsng8HiGEjLKihVL665EoDBcSQp52m8E4CIlE4hclJSU3f5EEoqGhYSLnvI0QcpKbPOWcE0VRIkKIms9bSzQ1NYXj8XidnbBTSm8Kh8P3uMED164UJ2I0TbslhZK9zalfLr+DWclk8q7W1taf5jJ+JI6Rt2ZUCBFwUTP0swICwRhbV1paunjhwoWfm8ZtbGxcrev6NXbfhzH2vVAoBJN52O1wCsNmQsjFw6bY3HDEB+zr7e39wdatW1/Jxxp/a3PCX+Cc3+e2IKTtUzDGFodCoV99HnuHGZhIJB4TQpxvs8eDhJBJNTU1H7hB42ERhgULFhR0d3e/SQiBI5SXBoYJIVqj0Wh5Xhb4G5p07dq1Bfv27ftnIcTCPJP1iqIo5dXV1Yc9SNHY2DiJc/6UEOI4sz1Ce6mq+lpBQcF0t/ybwyIMVVVV2NirTs6zEKKPUjpILQshClJOciDLj94Zj8dP37x585+d+q9cuZJ9+OGH/kQi4UffeDzO29vbY9u2bUs6jf28f1+1atXxjLFNhJCzHGhBlCkzcuezc0iN+YQQhFLa6ff7K5YuXZqVGbJmzRpfV1dXgTFHaWmp/sknn8RWrlzJh8qz+vr6i4UQT9gVoCmK0hQIBJYvWbIk1+jkILIOizBomraAEAJ1q9gwBbdP2OfzPd3d3T3a6FdQUODnnM8lhNxICDnCgak9hJDyaDT6jNFv2rRpalFRkb+wsPAYXdfPEEJMYoydmqIHN04RIQSHw2j7CSGdlNK3EWYkhPyuvb39z1YComna0ZzzMsZYKSFEN6FNSSaT2ydNmrTN6UDMnz//wng8DvpMbXRKaYEQ4pFoNPoX3Jq6rv+7Ez8YY4s4589wzlWDNsaYjzF2bupmXUkIOcHpkDLGrkg3lXCJnHjiif4DBw4UCSEmEkImCiEmCyG+QggZIwXN4CnCofuFEB+nTOQ3FUXZFovF3lixYsUBp3Xr6+tvTPlDdzv0W1JTU/OA01zZ/n5YhKG8vHyNoiiLcdvYtB2pwzc9Go1+atZHClSznXaRmmVRNBrdiI/29ttvXyCEmJUKv+EG/SohpCRbxsh+nUKIxxVFaY5EIggLD2pVVVWI6LQSQsZbzcsY2/jZZ5/92E7jVFVVnZFIJJ5QVfV4Gx4N8KexsXGmrutPOewFh3DK8uXL3zPrt379+qnt7e24NAYuHrN+jLFbQqHQz/AbIliEkDnJZHKqoiinCCH+boilwzgAuGh+aRe+XbNmTWFvb2+TlRkotRY0+Hdramp+N8Rvatn9sAjDnDlzXvb5fOc4CIOtvY+kXUFBAdS1pWmQLgyXXnppcTweR/8zhsssVVU/7ejouOrZZ5+F2h5o8+bN+1IikcCh/LbNGk+2t7eXWwkDhHbnzp3NlNIrzeaQvlAimUxe0tbWBsHDobxZ1/Xb7ZxnaDZVVWdb2ftYd+zYsZFEIoGknWXLEIZfcs5N6RwKj2Hv+3y+J0866aSlM2bM+ChzbF1d3TGEEPDV8tsJIf6XEHKBlbAPhR6jb96FQdO0cYSQ1wkhf29HIOf8zpaWln+y66Np2vOEkO/b9Bkwk2SSD4cXGe9hNRm63dPX1zc3PVoltQ9i/XZRslfb29vPtRKGSy655Gxd1//NTmtxzjczxuZHo9GDuDUTicQj8Xi8wk4YGGP3FxQUVFvZ06C9tLT0Ll3XVzDG7PgzYIo0NTVFndbNltG4GH0+31OU0gXXXHNNR/o4mUPBmbFMtgkhngoGg/Pdcp6xft6FIaUVvqeqKm40OxMFh/jKaDS6zoqZ0Aw+n+9FVVXPstEwnYyxsyKRyPswPTjnLU5CmO3Hkzf088FgsCw9uVdZWVknhAhbzcM5/4AxNgkHObOPFKYopXSu2Z7wN1VV90EI29ra4CMQ3JpCiN9SSpHRt2ygafny5Q1WHbB2SUnJWkLI5TbTHNR1vfK6667rT5bW1dW9TAg5J1ueZdEPZtOVmXZ/XV3dj4QQG+2EXVGUO6qrq2/OYo2su+RdGDRNu54QAkfIznmGnzAtGo3+wYpyKVSPEUKgaaza66eccsq34KxWVFRcRCndKJ3k/v7yQGfNHJOOek9Pz+lbt24d8B8qKyt/IoS402bSTmgnOL6ZfTRNQ1Ye5oApbyAMQoh1RUVFiw0BbGxsnKzrOm7NAac4fV7DnlYUBSbSViu6Ghsbx3HO37QKXUp+vasoypxly5a9i0hRb2/vDiHEycNhYCatqYuiraurq8IIMBgai3O+wiGHMq+mpuZf3aKlf79uTmY2V1VV1QbO+Ty7dYAx6ujoOMvKlEBE6KijjnrEaR5CyK3RaPR2rFVeXn4FY8yINCQ45zjAOxVF2SmE+EQI0S3BX6MYY+OFEIh4WTrCBv1CiLJNmzYNOK9yHTj26VGpge3Cj+nt7f1GugDhR+xp3Lhxz1NKz7XRdB/BLNm8efNrxoS4NQkhEHLLBntaUZSLQ6HQIU6/Mai2tvY2SilQAaYNdn0gENjk8/nmwdSSdvz/GA43pRS2Ppz6/xZCfJDSRF2qqnYrisKSyeRYzvl5hJD5WZyx1xVFucjwbZBDOXDgQCSZTF5sJQyU0t1CiNluOs95F4ZsnF4QgYhLJBK51OyryEPzkxRKAB/OTrskGGNnRiKR/8I8mqYhjT+bcx5RVRUM/9OBAwf6pkyZckjcG7fRrl27Tuecw2yw9TGEEJWbNm2KGrRKDbTexgzU4/H41PQDLemD8EFYTYVI3szNEyZMqE6/NY844ogGJ4iCkz3d0NDwj5zzRod8Qy9jbGkoFAJPSG1t7VmU0tWMMVwEv+GcvxuPxw+WlpbGzPwSGRFaKoS4z0rgcAkoivJaMpnUrr322v7cEDSWrutvOIR9X09dbhXGGLcu9LxqBk3T/oEQssXhxkV8PhwMBn/V0dHBxowZw/FvcXGx2tXVdUIwGARM2c6u7Td/dF1f19HRsQjaBYd7+/btBZhrKOC9ysrKe4UQN9gxN5lMft+w39FPhlexR6sAgR4IBC5av379QO5D07TRnPOXGWOTbdb6kDF2Pvwfow9Mle7u7m2UUrvoFS6X2uLi4kE4rd27d/t8Pt9RiqJcxTm/yinxxhgblN3F4fb7/XwoWCWZHITpa+oIS2F4KRaLlRm5Byl0A5rQjD+U0sioUaMucyvZZqyRV2GoqKiYSyl9ON1uN9kchAEfeJBNLYRAQmiKw1jDD9jX09PznUxTJHMtaJljjz22KJFIAEaOzLOfMRaklPbfzrquQxCQ4LNqPYyx09IPqAyv/tYGasJT9QKXRyKRDcaklZWVNwgh7rDTCrqu39za2oo+A02aKjB9nJKP8AW2p2fuOedHMca+lbrki7O4SfsCgcCiq6++2tYcwzz33ntvkd/vh3CrWE9RlALOOZKZEMqTOefQfpb+DWNsbTgcXmTQVFdXt5gQssaOxvRwbxZ7ybpLXoUhn0hVaUb0Iywppcui0WiT2a6Rb9B1/eu6rn+NUnqGrutfZozBCcd/pUKI4mzhHnBcE4nEeVu2bEH0q7/JiBDAgXa39QB9mqYhUYX8h51/ssvv939zw4YNyIgPtObm5vPi8fgLWdjhWR+AzI4S83N/KBSC9jikYb9jxoz5muQnYDbjKaXHCSHGUUrBT2TjAckwFYCMCQWldEU4HP658ff6+vp/ccBc9VJKLwuHw4gUutryJgy4hceMGbOeMVblKsVpk9nVMsj8BtaGI4eDerQhQA7JP1NypSn2QEdHx9JMR98pSEApve/xxx9fgYnLy8vvoJT+FLF9MzpkxOtyszBzQ0PDMmnr54WlEISxY8c+GYvFLs+M38to0g/hhwkhzgQMwwUi9vv9/vlLly6Fmdnf6urqYCLZYa7eU1W1DBEuF9YfNEXehGHWrFnHK4qyySEvkPN+ZNjxzng8flf6TY0JYZ7puh5WFOUcNyHOKHiZOHFiYybOSPoa18EyMNuQESCQ/sVzhmBm9pXC/UpJSckFZr5OfX09IM2uXy4yHAtyHp0wYcL106dP351Om0SQ3iSEQHmlLXxjiB/0fUSdDEcYPkYqsvSGEOJIs3kMh7u4uHjaUHyXbGnKpzCc7ff7gaw0heBmS6BFv50ptOldXV1d0cxbWtO05Yg8UUpLctEAdnQJIb67adOmQ+ol5s6du0xRlFU2PsBT0Wi0DFqBMWZZgCS1wg/TgYYGPbiZe3p6AIN340Ye2Kbk0ad+v//e7u7uhzJBdBIHVe92RR0IYIy9FAqFphnEyLVg/tihlNel6hdsAyq5nq28CcPs2bN/5PP5EHK0zfUPkXAcBiTeNpolsRDzR/gvWx9giGsjrv7daDQKTMygJgMFyJ5b1Xc/39PTUxMIBJBBH2slpAgDFxUVLTDTChKi8FIWznPW28LDCoCCCyEiZjkJCebbyDk/wQGykfWa6R0Bwa6url6WJgw/03Udl4XVuQTE/+Z0HyOnhS0G5U0YDNvYwUwBKvR1SimgvmZCE6eU/ikFCXjH5/PtUBRl1/jx4w+awaGrqqq+yjn/jZUJgv0boDdCCLAwSBThpQ2sHUxlgr9hBxmhlG5VVfWyjRs37s3k5axZs6AF7fBFOxhjSPbNs9FWiIiVWVXqyWTbQ065AUIIzAzTYv6UVkIu5i8pOpA8QwJyx549e/aa8RPx/hQs+9FkMnmhnSBIEwtQkw9T0IpPAUHHOoiuCSEQWrc82Cm4fHU6FGP16tVbEokEkANWZxxwmwq3yjwPMVPdlCxjLokYRbLGLkyJSFCko6NjvhsFNZWVlYD8LrXaj/xof0ReJ1Uq2JauWWQ+ZJuDLf+LvXv33mRGK+oaCCH/YWMSGrUOpklD6Ss0t7W1Wdb7NjY2Ot2aEPZ3R40a9U03wGvr1q27eM+ePZvT/Akz1h5UFOXhZDK5LhgMvpUe96+trX0gFS6/wuZ8IVJ2oZFFRua5q6sLPLQzA99P1bucnQnsc+sM50UzyFsa4C7L8KFEgt582mmn3eVU+OK0WaeyUhkJ+iAWi80yy0VI3BNClqZNjl/c0tLyoFkHGV7Fh8wVLv4RY2xWJBKBGWjacGsmk8mL7HjBGHsmFAoh4jOsJpN7gJXbHeY+IcQKMzCgBAGizsAuKvR+YWHhFENwgblKJpO/ppT2R/0ym5GgS/cxhrVJk8F5EQYJSwbK0vaNpEycT66bk+shPGcF4uO6rt+amcQy1pNgQjvYQB8h5AdmzrMxR0VFxdOUUgDvhtpA2z12L3vI4nhoLrtbUyiKcqcbSE75JtNWzvnZZpuRuYhnYrFYpVnVGvwbIcTTDiDAQe8dNTQ0LOScA+Nlma1O+VuDfIyhMtqpf16EQVal9WNabBpK/860Q6o6EZ92EDVKKezp/synSYOZstAsdo8QsN/vf4FSCrCe1ZKw+eemZ54zOzqZaVYTM8b+iPCiWUDAGINkG16K4JwfaWNP9wJsuHz58sez5ZtVP5np/r0DPsgyqpOCbtx38ODB6+18jcwscn19/T3QNDa0o7LtcreRqunruS4MSLYdeeSRP7fD+EsCEBnR3HgeUtO0y1L2/v0OmugFv98/Nz2rC40Si8Vu8/l8060+gjSRLKM8aQIZToVz64Z4EFEof300Gq21G1dbW3s1pRS1CXZZ3U5VVae6kYySmKL/tItcCSE+DQQCi9MTZhKcV51C6iIngcy+1baEruszjToJdKqvr28VQsyx4cNBVVXPdGN/lt96iB/PsXuWpZBw9pp3794ddsN5rqiocNIMBt2IXMHcQPYXL9EBiQkogeW+sn2gTIZXs4YISCF7Kx6PfyczaZhJTENDwyrOOfIndu3Nffv2nTlc/wsLZIkcxTdEcg7mFBCnx1BKJ8FvSuGugFOyo/UgHhEwSjazKfNE9KuwsPAMt8F5edUMstwSEFwnMNm1Tjeio+TJDk6ZXZN5YDbZwcEzh8DEAuDQskm/BYC9rOaVEaRyo67ZamJEWTo7O59gjFlqLzn20Zqamh9nyzO7fmvWrCnp6enBo2/nZjkfTJhssEjGdG+WlpZONbLIDQ0N56WKhmzNQCBVw+HwJVnSk1M3182kiooKQCBQHmjXcBgvMsu05rSLv0Kpf59y2s7OIevsJBiInaOGwfalPhlBe8sJZYv9QRDwhMvo0aPnOEHM8RJ16sZFnbVT5tm1Z1MQDSouLr5VCHFLjsk2qFprG0mIB/fv33+locWkGQjn2bJRSm/IV7LNWNR1YZDQBMTy7Rqw+mVmz6/kKgzIeKuqupYxFshGIGQCDuWTX3JAkKLPLKsnbAx6UaOAt4GyrJbL+ilM3Jqcc8Ba7DQtDt9UNyu/Vq9efbKu689xzo/LFt8FPwLJTEop6jTsahgGvcWUjRno5puqVmfMdWHQNO05Sun5DgfyJZ/PN8csm5urMGDcjBkzbg0Gg6hJMA3pGh81lZxrF0K0KIryIOccwDnTgybt+s0tLS2znehC4GDs2LFbnMKrmLOvrw/rhp18Bawp/x8MlmFfSReSX19x+xlImXhbnSUcA9WEt6ceYTiVc363gwB92xBcaZIhLG730EAfoOJuV7ZlflPXhaGysvIRIcSxNodH1XW9tbW1dbXTAcvld03T5lFKAXtAYVB6AgcQhfcl/GMzTDTp3yCRZuZBG7xZ7+QvgE6n94/S9tLOGLvQLsGWvm/AthFlEUKYvdgHk0uhlL5VUFBwYz6cy7q6OhQEobYB/6Kaz/ANkHv5KPWyx45UHfeL0F54wh7PyKN+2Yxe0Mo571ZVdZEhuBKpepsQ4nir750Ka+9A5V4+kKrpa7ouDLKOwO4cK8FgsMvJVs5FEIwxgIP09fUhsnE0ik0YY93JZBLIzP9LzxXIGm3gkixbe3v73mwiXlizt7f3OTvIuhGZ6uzsvDWbOUGUUUmmKIrlG7CBQKB7yZIlAwVHw+Gd1VgJ4z4xBYTEE5JGJOnjoqKiXemHVN70hVb0BgKBeDpcBNnuRCJRzDkKAtkhb7Li74djf/17ygfjvohzOvlKEk6ABFuZG4nGLyKP871nTxhc4LA0txBBc6rdGHjKxoVlvSlc5oAnDMNkKHyFd955p9EOMYslOOdv47ULp6jUMMnxhg+DA54wDIN5GDpz5sxzAoFAq13RDmQBZaj5ChoMcwvecMkBTxiGcRTggPv9/o2KosyyCiUb+YxYLDboVY1hLOsNzRMHPGEYBmOrqqou1XX9IadEn1tQ9WGQ6g3NggOeMGTBJLMuCCEzxrbYQUCMpN2pp5461w0AXY6kesOy5IAnDFkyKrObUyhV9k/guZrHHnvM9rnEHEnwhrnMAU8YcmDozJkzJxYWFgJ2gqSe6QwG7GLy5MkDgLQclvKGHEYOeMIwRGbLlwJXMsZqUoU5eNberOEd1497enoqnd5/HeLyXvc8csAThjwy15t6ZHHAE4aR9b08avPIAU8Y8shcb+qRxQFPGEbW9/KozSMHPGHII3O9qUcWBzxhGFnfy6M2jxzwhCGPzPWmHlkc8IRhZH0vj9o8csAThjwy15t6ZHHAE4aR9b08avPIAU8Y8shcb+qRxYH/B24hLuvW2ZBNAAAAAElFTkSuQmCC" />
+                                </defs>
+                            </svg>
+                        </div>
+                        <div>
+                            <svg width="100 " height="29" viewBox="0 0 53 29" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect x="0.722656" width="52.2785" height="28.2138" fill="url(#pattern0_75618_565)" />
+                                <defs>
+                                    <pattern id="pattern0_75618_565" patternContentUnits="objectBoundingBox" width="1"
+                                        height="1">
+                                        <use xlink:href="#image0_75618_565"
+                                            transform="matrix(0.00917044 0 0 0.0144928 -0.39375 0)" />
+                                    </pattern>
+                                    <image id="image0_75618_565" width="195" height="69"
+                                        xlink:href="data:image/png;base64,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" />
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+
+    <section class="image  h-[1193px]  flex items-center flex-col">
+        <div class="container">
+            <h1 class="font-xl text-fiveXl heading mx-auto text-center mt-[40px] mb-[30px] ">Meet top coder ready to
+                <span class="text-green">Chat and
+                    hire</span>
+            </h1>
+            <div class="flex flex-wrap">
+                <div class="w-full xl:w-7/12">
+                    <div>
+                        <div><img src="/src/images/Video.png" alt=""></div>
+                        <p class="font-xl  text-fourXl">Courtney Henry</p>
+                        <p>Java Developer</p>
+                        <div><img src="/src/images/svg/Frame 48095701.svg" alt=""></div>
+                        <p class="short-para text-xl font-md">“Senectus tempus porttitor sed id dignissim. At et euismod
+                            adipiscing
+                            mattis vestibulum odio. Curabitur consectetur commodo neque nullam aenean molestie
+                            tristique.
+                            Proin
+                            feugiat aenean pulvinar eget nulla sagittis in. Nisi viverra fames quis consequat nullam”
+                        </p>
+
+                    </div>
+                </div>
+                <div class="w-full xl:w-5/12">
+                    <div class="border  border-gray-300 w-[461px] bg-white  h-[179px] rounded-lg  hover:scale-[1.05]">
+                        <div class="flex ">
+                            <img class="pl-1 pt-2" src="/src/images/Rectangle 24.png" alt="">
+                            <div class="pl-2">
+                                <p class="font-xl double-xl pt-2">Eleanor Pena</p>
+                                <p class="font-md text-xl text-gray-500">JavaScript Developer</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <div><img class="pl-1" src="/src/images/svg/Frame 48095701.svg" alt=""></div>
+                            <div>
+                                <p class="text-green ">Experience: 10 Years</p>
+                            </div>
+                        </div>
+                        <p class="w-[436.5px] h-[66px] font-md  pl-1 text-lg text-grey">“Senectus tempus porttitor sed
+                            id
+                            dignissim.
+                            At et
+                            euismod adipiscing mattis vestibulum odio. Curabitur consectetur commodo neque nullam aenean
+                            molestie tristique.</p>
+                    </div>
+
+                    <div
+                        class="border  border-gray-300 w-[461px] bg-white mt-2  h-[179px] rounded-lg hover:scale-[1.05]">
+                        <div class="flex">
+                            <img class="pl-1 pt-2" src="/src/images/Rectangle 24 (1).png" alt="">
+                            <div class="pl-2">
+                                <p class="font-xl double-xl pt-2">Devon Lane</p>
+                                <p class="font-md text-xl text-gray-500">JavaScript Developer</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <div><img class="pl-1" src="/src/images/svg/Frame 48095701.svg" alt=""></div>
+                            <div>
+                                <p class="text-green ">Experience: 10 Years</p>
+                            </div>
+                        </div>
+                        <p class="w-[436.5px] h-[66px] font-md  pl-1 text-lg text-grey">“Senectus tempus porttitor sed
+                            id
+                            dignissim.
+                            At et
+                            euismod adipiscing mattis vestibulum odio. Curabitur consectetur commodo neque nullam aenean
+                            molestie tristique.</p>
+                    </div>
+
+
+                    <div
+                        class="border  border-gray-300 w-[461px] bg-white mt-2  h-[179px] rounded-lg hover:scale-[1.05]">
+                        <div class="flex">
+                            <img class="pl-1 pt-2" src="/src/images/Rectangle 24 (2).png" alt="">
+                            <div class="pl-2">
+                                <p class="font-xl double-xl pt-2">Ralph Edwards</p>
+                                <p class="font-md text-xl text-gray-500">JavaScript Developer</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <div><img class="pl-1" src="/src/images/svg/Frame 48095701.svg" alt=""></div>
+                            <div>
+                                <p class="text-green ">Experience: 10 Years</p>
+                            </div>
+                        </div>
+                        <p class="w-[436.5px] h-[66px] font-md  pl-1 text-lg text-grey">“Senectus tempus porttitor sed
+                            id
+                            dignissim.
+                            At et
+                            euismod adipiscing mattis vestibulum odio. Curabitur consectetur commodo neque nullam aenean
+                            molestie tristique.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- slider  -->
+
+            <div class="w-4/5 mx-auto personSlider pt-[50px] pr-7 pb-[140px] max-lg:pb-[50px] max-lg:pt-[10px]">
+                <div class="show-six flex">
+                    <div class="flex flex-col px-[10px]">
+                        <div class="relative">
+                            <img src="./src/images/Video (1).png" alt="">
+                            <div
+                                class="positionAbsolute py-[10px] px-[12px] border-2 rounded-full flex items-center justify-center cursor-pointer">
+                                <svg width="10" height="12" viewBox="0 0 10 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_b_75546_1368)">
+                                        <path
+                                            d="M9.26523 5.217C10.0597 5.71493 10.0597 6.95976 9.26523 7.4577L2.41263 11.7524C1.61813 12.2503 0.625 11.6279 0.625 10.632V2.04267C0.625 1.0468 1.61813 0.424386 2.41263 0.922319L9.26523 5.217Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <filter id="filter0_b_75546_1368" x="-38.2201" y="-38.098" width="86.9245"
+                                            height="88.8708" filterUnits="userSpaceOnUse"
+                                            color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feGaussianBlur in="BackgroundImageFix" stdDeviation="19.4225" />
+                                            <feComposite in2="SourceAlpha" operator="in"
+                                                result="effect1_backgroundBlur_75546_1368" />
+                                            <feBlend mode="normal" in="SourceGraphic"
+                                                in2="effect1_backgroundBlur_75546_1368" result="shape" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <span class="inter font-xl text-xl inter pt-3">
+                            Ralph Edwards
+                        </span>
+                        <p class="inter font-md text-lg inter pt-2 text-darkGrey">
+                            Java Developer
+                        </p>
+                    </div>
+                    <div class="flex flex-col px-[10px]">
+                        <div class="relative">
+                            <img src="./src/images/Video (2).png" alt="">
+                            <div
+                                class="positionAbsolute py-[10px] px-[12px] border-2 rounded-full flex items-center justify-center cursor-pointer">
+                                <svg width="10" height="12" viewBox="0 0 10 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_b_75546_1368)">
+                                        <path
+                                            d="M9.26523 5.217C10.0597 5.71493 10.0597 6.95976 9.26523 7.4577L2.41263 11.7524C1.61813 12.2503 0.625 11.6279 0.625 10.632V2.04267C0.625 1.0468 1.61813 0.424386 2.41263 0.922319L9.26523 5.217Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <filter id="filter0_b_75546_1368" x="-38.2201" y="-38.098" width="86.9245"
+                                            height="88.8708" filterUnits="userSpaceOnUse"
+                                            color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feGaussianBlur in="BackgroundImageFix" stdDeviation="19.4225" />
+                                            <feComposite in2="SourceAlpha" operator="in"
+                                                result="effect1_backgroundBlur_75546_1368" />
+                                            <feBlend mode="normal" in="SourceGraphic"
+                                                in2="effect1_backgroundBlur_75546_1368" result="shape" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <span class="inter font-xl text-xl inter pt-3">
+                            Cody Fisher
+                        </span>
+                        <p class="inter font-md text-lg inter pt-2 text-darkGrey">
+                            Java Developer
+                        </p>
+                    </div>
+                    <div class="flex flex-col px-[10px]">
+                        <div class="relative">
+                            <img src="./src/images/Video (3).png" alt="">
+                            <div
+                                class="positionAbsolute py-[10px] px-[12px] border-2 rounded-full flex items-center justify-center cursor-pointer">
+                                <svg width="10" height="12" viewBox="0 0 10 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_b_75546_1368)">
+                                        <path
+                                            d="M9.26523 5.217C10.0597 5.71493 10.0597 6.95976 9.26523 7.4577L2.41263 11.7524C1.61813 12.2503 0.625 11.6279 0.625 10.632V2.04267C0.625 1.0468 1.61813 0.424386 2.41263 0.922319L9.26523 5.217Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <filter id="filter0_b_75546_1368" x="-38.2201" y="-38.098" width="86.9245"
+                                            height="88.8708" filterUnits="userSpaceOnUse"
+                                            color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feGaussianBlur in="BackgroundImageFix" stdDeviation="19.4225" />
+                                            <feComposite in2="SourceAlpha" operator="in"
+                                                result="effect1_backgroundBlur_75546_1368" />
+                                            <feBlend mode="normal" in="SourceGraphic"
+                                                in2="effect1_backgroundBlur_75546_1368" result="shape" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <span class="inter font-xl text-xl inter pt-3">
+                            Arlene McCoy
+                        </span>
+                        <p class="inter font-md text-lg inter pt-2 text-darkGrey">
+                            Java Developer
+                        </p>
+                    </div>
+                    <div class="flex flex-col px-[10px]">
+                        <div class="relative">
+                            <img src="./src/images/Video (4).png" alt="">
+                            <div
+                                class="positionAbsolute py-[10px] px-[12px] border-2 rounded-full flex items-center justify-center cursor-pointer">
+                                <svg width="10" height="12" viewBox="0 0 10 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_b_75546_1368)">
+                                        <path
+                                            d="M9.26523 5.217C10.0597 5.71493 10.0597 6.95976 9.26523 7.4577L2.41263 11.7524C1.61813 12.2503 0.625 11.6279 0.625 10.632V2.04267C0.625 1.0468 1.61813 0.424386 2.41263 0.922319L9.26523 5.217Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <filter id="filter0_b_75546_1368" x="-38.2201" y="-38.098" width="86.9245"
+                                            height="88.8708" filterUnits="userSpaceOnUse"
+                                            color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feGaussianBlur in="BackgroundImageFix" stdDeviation="19.4225" />
+                                            <feComposite in2="SourceAlpha" operator="in"
+                                                result="effect1_backgroundBlur_75546_1368" />
+                                            <feBlend mode="normal" in="SourceGraphic"
+                                                in2="effect1_backgroundBlur_75546_1368" result="shape" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <span class="inter font-xl text-xl inter pt-3">
+                            Esther Howard
+                        </span>
+                        <p class="inter font-md text-lg inter pt-2 text-darkGrey">
+                            Java Developer
+                        </p>
+                    </div>
+                    <div class="flex flex-col px-[10px]">
+                        <div class="relative">
+                            <img src="./src/images/Video (5).png" alt="">
+                            <div
+                                class="positionAbsolute py-[10px] px-[12px] border-2 rounded-full flex items-center justify-center cursor-pointer">
+                                <svg width="10" height="12" viewBox="0 0 10 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_b_75546_1368)">
+                                        <path
+                                            d="M9.26523 5.217C10.0597 5.71493 10.0597 6.95976 9.26523 7.4577L2.41263 11.7524C1.61813 12.2503 0.625 11.6279 0.625 10.632V2.04267C0.625 1.0468 1.61813 0.424386 2.41263 0.922319L9.26523 5.217Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <filter id="filter0_b_75546_1368" x="-38.2201" y="-38.098" width="86.9245"
+                                            height="88.8708" filterUnits="userSpaceOnUse"
+                                            color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feGaussianBlur in="BackgroundImageFix" stdDeviation="19.4225" />
+                                            <feComposite in2="SourceAlpha" operator="in"
+                                                result="effect1_backgroundBlur_75546_1368" />
+                                            <feBlend mode="normal" in="SourceGraphic"
+                                                in2="effect1_backgroundBlur_75546_1368" result="shape" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <span class="inter font-xl text-xl inter pt-3">
+                            Ronald Richards
+                        </span>
+                        <p class="inter font-md text-lg inter pt-2 text-darkGrey">
+                            Java Developer
+                        </p>
+                    </div>
+                    <div class="flex flex-col px-[10px]">
+                        <div class="relative">
+                            <img src="./src/images/Video (6).png" alt="">
+                            <div
+                                class="positionAbsolute py-[10px] px-[12px] border-2 rounded-full flex items-center justify-center cursor-pointer">
+                                <svg width="10" height="12" viewBox="0 0 10 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_b_75546_1368)">
+                                        <path
+                                            d="M9.26523 5.217C10.0597 5.71493 10.0597 6.95976 9.26523 7.4577L2.41263 11.7524C1.61813 12.2503 0.625 11.6279 0.625 10.632V2.04267C0.625 1.0468 1.61813 0.424386 2.41263 0.922319L9.26523 5.217Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <filter id="filter0_b_75546_1368" x="-38.2201" y="-38.098" width="86.9245"
+                                            height="88.8708" filterUnits="userSpaceOnUse"
+                                            color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feGaussianBlur in="BackgroundImageFix" stdDeviation="19.4225" />
+                                            <feComposite in2="SourceAlpha" operator="in"
+                                                result="effect1_backgroundBlur_75546_1368" />
+                                            <feBlend mode="normal" in="SourceGraphic"
+                                                in2="effect1_backgroundBlur_75546_1368" result="shape" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <span class="inter font-xl text-xl inter pt-3">
+                            Dianne Russell
+                        </span>
+                        <p class="inter font-md text-lg inter pt-2 text-darkGrey">
+                            Java Developer
+                        </p>
+                    </div>
+                    <div class="flex flex-col px-[10px]">
+                        <div class="relative">
+                            <img src="./src/images/Video (1).png" alt="">
+                            <div
+                                class="positionAbsolute py-[10px] px-[12px] border-2 rounded-full flex items-center justify-center cursor-pointer">
+                                <svg width="10" height="12" viewBox="0 0 10 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_b_75546_1368)">
+                                        <path
+                                            d="M9.26523 5.217C10.0597 5.71493 10.0597 6.95976 9.26523 7.4577L2.41263 11.7524C1.61813 12.2503 0.625 11.6279 0.625 10.632V2.04267C0.625 1.0468 1.61813 0.424386 2.41263 0.922319L9.26523 5.217Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <filter id="filter0_b_75546_1368" x="-38.2201" y="-38.098" width="86.9245"
+                                            height="88.8708" filterUnits="userSpaceOnUse"
+                                            color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feGaussianBlur in="BackgroundImageFix" stdDeviation="19.4225" />
+                                            <feComposite in2="SourceAlpha" operator="in"
+                                                result="effect1_backgroundBlur_75546_1368" />
+                                            <feBlend mode="normal" in="SourceGraphic"
+                                                in2="effect1_backgroundBlur_75546_1368" result="shape" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <span class="inter font-xl text-xl inter pt-3">
+                            Ralph Edwards
+                        </span>
+                        <p class="inter font-md text-lg inter pt-2 text-darkGrey">
+                            Java Developer
+                        </p>
+                    </div>
+                    <div class="flex flex-col px-[10px]">
+                        <div class="relative">
+                            <img src="./src/images/Video (2).png" alt="">
+                            <div
+                                class="positionAbsolute py-[10px] px-[12px] border-2 rounded-full flex items-center justify-center cursor-pointer">
+                                <svg width="10" height="12" viewBox="0 0 10 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_b_75546_1368)">
+                                        <path
+                                            d="M9.26523 5.217C10.0597 5.71493 10.0597 6.95976 9.26523 7.4577L2.41263 11.7524C1.61813 12.2503 0.625 11.6279 0.625 10.632V2.04267C0.625 1.0468 1.61813 0.424386 2.41263 0.922319L9.26523 5.217Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <filter id="filter0_b_75546_1368" x="-38.2201" y="-38.098" width="86.9245"
+                                            height="88.8708" filterUnits="userSpaceOnUse"
+                                            color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feGaussianBlur in="BackgroundImageFix" stdDeviation="19.4225" />
+                                            <feComposite in2="SourceAlpha" operator="in"
+                                                result="effect1_backgroundBlur_75546_1368" />
+                                            <feBlend mode="normal" in="SourceGraphic"
+                                                in2="effect1_backgroundBlur_75546_1368" result="shape" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <span class="inter font-xl text-xl inter pt-3">
+                            Cody Fisher
+                        </span>
+                        <p class="inter font-md text-lg inter pt-2 text-darkGrey">
+                            Java Developer
+                        </p>
+                    </div>
+                    <div class="flex flex-col px-[10px]">
+                        <div class="relative">
+                            <img src="./src/images/Video (3).png" alt="">
+                            <div
+                                class="positionAbsolute py-[10px] px-[12px] border-2 rounded-full flex items-center justify-center cursor-pointer">
+                                <svg width="10" height="12" viewBox="0 0 10 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_b_75546_1368)">
+                                        <path
+                                            d="M9.26523 5.217C10.0597 5.71493 10.0597 6.95976 9.26523 7.4577L2.41263 11.7524C1.61813 12.2503 0.625 11.6279 0.625 10.632V2.04267C0.625 1.0468 1.61813 0.424386 2.41263 0.922319L9.26523 5.217Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <filter id="filter0_b_75546_1368" x="-38.2201" y="-38.098" width="86.9245"
+                                            height="88.8708" filterUnits="userSpaceOnUse"
+                                            color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feGaussianBlur in="BackgroundImageFix" stdDeviation="19.4225" />
+                                            <feComposite in2="SourceAlpha" operator="in"
+                                                result="effect1_backgroundBlur_75546_1368" />
+                                            <feBlend mode="normal" in="SourceGraphic"
+                                                in2="effect1_backgroundBlur_75546_1368" result="shape" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <span class="inter font-xl text-xl inter pt-3">
+                            Arlene McCoy
+                        </span>
+                        <p class="inter font-md text-lg inter pt-2 text-darkGrey">
+                            Java Developer
+                        </p>
+                    </div>
+                    <div class="flex flex-col px-[10px]">
+                        <div class="relative">
+                            <img src="./src/images/Video (4).png" alt="">
+                            <div
+                                class="positionAbsolute py-[10px] px-[12px] border-2 rounded-full flex items-center justify-center cursor-pointer">
+                                <svg width="10" height="12" viewBox="0 0 10 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_b_75546_1368)">
+                                        <path
+                                            d="M9.26523 5.217C10.0597 5.71493 10.0597 6.95976 9.26523 7.4577L2.41263 11.7524C1.61813 12.2503 0.625 11.6279 0.625 10.632V2.04267C0.625 1.0468 1.61813 0.424386 2.41263 0.922319L9.26523 5.217Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <filter id="filter0_b_75546_1368" x="-38.2201" y="-38.098" width="86.9245"
+                                            height="88.8708" filterUnits="userSpaceOnUse"
+                                            color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feGaussianBlur in="BackgroundImageFix" stdDeviation="19.4225" />
+                                            <feComposite in2="SourceAlpha" operator="in"
+                                                result="effect1_backgroundBlur_75546_1368" />
+                                            <feBlend mode="normal" in="SourceGraphic"
+                                                in2="effect1_backgroundBlur_75546_1368" result="shape" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <span class="inter font-xl text-xl inter pt-3">
+                            Esther Howard
+                        </span>
+                        <p class="inter font-md text-lg inter pt-2 text-darkGrey">
+                            Java Developer
+                        </p>
+                    </div>
+                    <div class="flex flex-col px-[10px]">
+                        <div class="relative">
+                            <img src="./src/images/Video (5).png" alt="">
+                            <div
+                                class="positionAbsolute py-[10px] px-[12px] border-2 rounded-full flex items-center justify-center cursor-pointer">
+                                <svg width="10" height="12" viewBox="0 0 10 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_b_75546_1368)">
+                                        <path
+                                            d="M9.26523 5.217C10.0597 5.71493 10.0597 6.95976 9.26523 7.4577L2.41263 11.7524C1.61813 12.2503 0.625 11.6279 0.625 10.632V2.04267C0.625 1.0468 1.61813 0.424386 2.41263 0.922319L9.26523 5.217Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <filter id="filter0_b_75546_1368" x="-38.2201" y="-38.098" width="86.9245"
+                                            height="88.8708" filterUnits="userSpaceOnUse"
+                                            color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feGaussianBlur in="BackgroundImageFix" stdDeviation="19.4225" />
+                                            <feComposite in2="SourceAlpha" operator="in"
+                                                result="effect1_backgroundBlur_75546_1368" />
+                                            <feBlend mode="normal" in="SourceGraphic"
+                                                in2="effect1_backgroundBlur_75546_1368" result="shape" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <span class="inter font-xl text-xl inter pt-3">
+                            Ronald Richards
+                        </span>
+                        <p class="inter font-md text-lg inter pt-2 text-darkGrey">
+                            Java Developer
+                        </p>
+                    </div>
+                    <div class="flex flex-col px-[10px]">
+                        <div class="relative">
+                            <img src="./src/images/Video (6).png" alt="">
+                            <div
+                                class="positionAbsolute py-[10px] px-[12px] border-2 rounded-full flex items-center justify-center cursor-pointer">
+                                <svg width="10" height="12" viewBox="0 0 10 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_b_75546_1368)">
+                                        <path
+                                            d="M9.26523 5.217C10.0597 5.71493 10.0597 6.95976 9.26523 7.4577L2.41263 11.7524C1.61813 12.2503 0.625 11.6279 0.625 10.632V2.04267C0.625 1.0468 1.61813 0.424386 2.41263 0.922319L9.26523 5.217Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <filter id="filter0_b_75546_1368" x="-38.2201" y="-38.098" width="86.9245"
+                                            height="88.8708" filterUnits="userSpaceOnUse"
+                                            color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feGaussianBlur in="BackgroundImageFix" stdDeviation="19.4225" />
+                                            <feComposite in2="SourceAlpha" operator="in"
+                                                result="effect1_backgroundBlur_75546_1368" />
+                                            <feBlend mode="normal" in="SourceGraphic"
+                                                in2="effect1_backgroundBlur_75546_1368" result="shape" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <span class="inter font-xl text-xl inter pt-3">
+                            Dianne Russell
+                        </span>
+                        <p class="inter font-md text-lg inter pt-2 text-darkGrey">
+                            Java Developer
+                        </p>
+                    </div>
+                </div>
+    </section>
+
+
+    <section class=" items-center justify-center bg-cover bg-no-repeat relative img">
+        <div class=" w-4/5 mx-auto">
+            <div class="flex flex-wrap justify-between">
+                <div class="w-full xl:w-7/12">
+                    <div class="inter text-fourXl font-xl max-w-[454px] pt-[143px] max-xl:pt-[50px]">
+                        Build Amazing <span class="text-green">Teams, On Demand</span>
+                    </div>
+                    <p class="inter text-lg font-md text-darkGrey pt-6 pb-10 max-w-[500px]">
+                        Quis diam fames justo ultricies enim. Et et donec sit eu sed enim sed commodo pellentesque.
+                    </p>
+                    <div class="flex flex-wrap justify-between">
+                        <div class="flex flex-col">
+                            <span>
+                                <img src="src/images/svg/Logo.svg" alt="">
+                            </span>
+                            <div class="inter font-xl text-threeXl pt-4 ">
+                                Same-Day Hiring
+                            </div>
+                            <p class="text-lg font-md inter text-darkGrey pt-[10px] max-w-[255px]">
+                                Hire Top 1% Remote Coders on the same day
+                            </p>
+                        </div>
+                        <div class="flex flex-col">
+                            <span>
+                                <img src="/src/images/svg/Logo (1).svg" alt="">
+                            </span>
+                            <div class="inter font-xl text-threeXl pt-4 ">
+                                Satisfaction Guaranteed
+                            </div>
+                            <p class="text-lg font-md inter text-darkGrey pt-[10px] max-w-[255px]">
+                                Pay only when satisfied with the task
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap justify-between pt-[50px]">
+                        <div class="flex flex-col">
+                            <span>
+                                <img src="src/images/svg/Logo (2).svg" alt="">
+                            </span>
+                            <div class="inter font-xl text-threeXl pt-4 max-w-[255px] ">
+                                Connect via Chat and Video
+                            </div>
+                            <p class="text-lg font-md inter text-darkGrey pt-[10px] max-w-[255px]">
+                                Chat and Video call on the same day before awarding project
+                            </p>
+                        </div>
+                        <div class="flex flex-col">
+                            <span>
+                                <img src="src/images/svg/Logo (3).svg" alt="">
+                            </span>
+                            <div class="inter font-xl text-threeXl pt-4 ">
+                                Affordable Excellence
+                            </div>
+                            <p class="text-lg font-md inter text-darkGrey pt-[10px] max-w-[255px]">
+                                Hire top-tier professionals—without breaking the bank.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full xl:w-5/12 pt-[140px] max-xl:pt-[50px] pl-[57px] max-md:pl-[0px]">
+                    <div class="flex max-md:flex-wrap max-md:items-center max-md:justify-center">
+                        <div>
+                            <div class="w-12/12 hover:scale-[1.02]">
+                                <div class="box bg-white shadow-lg rounded-[15px]">
+                                    <img class="rounded-t-[15px] w-full" src="./src/images/Rectangle 25.png" alt="">
+                                    <div class=" px-4 pb-4">
+                                        <div class="pt-[14px] pb-2 inter">
+                                            Marvin McKinney
+                                        </div>
+                                        <div class="flex items-center pb-[18px]">
+                                            <span class="pr-3">
+                                                <img src="src/images/svg/icon 3.svg" alt="">
+                                            </span>
+                                            <p class=" font-md text-lg inter text-darkGrey">
+                                                Project Manager
+                                            </p>
+                                        </div>
+                                        <p class="text-darkGrey font-md inter text-sm">
+                                            Previously at
+                                        </p>
+                                        <div class="pt-2">
+                                            <img src="src/images/svg/image 2576.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-12/12 pt-[19px] hover:scale-[1.02] pb-[87px] max-md:pb-[19px]">
+                                <div class="box bg-white shadow-lg rounded-[15px]">
+                                    <img class="rounded-t-[15px] w-full" src="./src/images/Rectangle-img-13.png "
+                                        alt="">
+                                    <div class=" px-4 pb-4">
+                                        <div class="pt-[14px] pb-2 inter">
+                                            Annette Black
+                                        </div>
+                                        <div class="flex items-center pb-[18px]">
+                                            <span class="pr-3">
+                                                <img src="src/images/svg/icon 3.svg" alt="">
+                                            </span>
+                                            <p class=" font-md text-lg inter text-darkGrey">
+                                                Python developer
+                                            </p>
+                                        </div>
+                                        <p class="text-darkGrey font-md inter text-sm">
+                                            Previously at
+                                        </p>
+                                        <div class="pt-2">
+                                            <img src="src/images/svg/Black.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="w-12/12 flex flex-col max-lg:items-end max-lg:item-end items-center justify-center pl-5 max-sm:pl-0 hover:scale-[1.02] max-md:pb-[19px]">
+                            <div class="box bg-white shadow-lg rounded-[15px]">
+                                <img class="rounded-t-[15px] w-full" src="./src/images/Rectangle-=>.png" alt="">
+                                <div class=" px-4 pb-4">
+                                    <div class="pt-[14px] pb-2 inter">
+                                        Jane Cooper
+                                    </div>
+                                    <div class="flex items-center pb-[18px]">
+                                        <span class="pr-3">
+                                            <img src="/src/images/svg/icon 3.svg" alt="">
+                                        </span>
+                                        <p class=" font-md text-lg inter text-darkGrey">
+                                            Python developer
+                                        </p>
+                                    </div>
+                                    <p class="text-darkGrey font-md inter text-sm">
+                                        Previously at
+                                    </p>
+                                    <div class="pt-2">
+                                        <img src="src/images/svg/Blacker.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="relative">
+        <div class="container mx-auto w-4/5 pt-[140px] pb-[120px]">
+            <div class="text-center mx-auto mt-10  ">
+                <div class="">
+                    <h1 class="font-xl text-fiveXl outfit max-w-[565px] mx-auto leading-[56px]">Total <span
+                            style="color: #14A800;">experience</span>
+                        of
+                        our
+                        coders</h1>
+                </div>
+                <p class="text-xl font-md inter text-grey mt-8 mb-2">Our coders bring a wealth of experience,
+                    knowledge
+                    and expertise to every project they undertake.</p>
+            </div>
+            <div class="flex flex-wrap ">
+                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/4">
+                    <div class="card w-[263.53px] h-[174px] mt-10 hover:shadow-md">
+                        <div class="box flex">
+                            <img class="w-10 h-10" src="./src/images/image 2570.png" alt="python">
+                            <div class="ml-3">
+                                <p class="font-xl text-tripleXl inter">Python</p>
+                                <p class="text-green font-doubleXl text-xl inter">45,000 Hrs.</p>
+                            </div>
+                        </div>
+                        <div class="mt-2">
+                            <p class="text-grey font-md text-xl inter">Python is a high-level, versatile
+                                programming
+                                language that has gained immense popularity.</p>
+                        </div>
+                        <div class="flex mt-2">
+                            <p class="text-base	font-medium inter">View Coders</p>
+                            <div class="svg mt-1 ml-2"><svg width="13" height="16" viewBox="0 0 13 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.7071 8.70711C13.0976 8.31658 13.0976 7.68342 12.7071 7.29289L6.34315 0.928933C5.95262 0.538408 5.31946 0.538408 4.92893 0.928933C4.53841 1.31946 4.53841 1.95262 4.92893 2.34315L10.5858 8L4.92893 13.6569C4.53841 14.0474 4.53841 14.6805 4.92893 15.0711C5.31946 15.4616 5.95262 15.4616 6.34315 15.0711L12.7071 8.70711ZM-8.74228e-08 9L12 9L12 7L8.74228e-08 7L-8.74228e-08 9Z"
+                                        fill="#131313" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card w-[263.53px] h-[174px] mt-10  hover:shadow-md">
+                        <div class="box flex">
+                            <img class="h-10 w-10" src="./src/images/image 2566.png" alt="python">
+                            <div class="ml-3">
+                                <p class="font-xl text-tripleXl inter">Database</p>
+                                <p class="text-green font-doubleXl text-xl inter">45,000 Hrs.</p>
+                            </div>
+                        </div>
+                        <div class="mt-2">
+                            <p class="text-grey font-md text-xl inter">Python is a high-level, versatile
+                                programming
+                                language that has gained immense popularity.</p>
+                        </div>
+                        <div class="flex mt-2">
+                            <p class="text-base	font-medium inter">View Coders</p>
+                            <div class="svg mt-1 ml-2"><svg width="13" height="16" viewBox="0 0 13 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.7071 8.70711C13.0976 8.31658 13.0976 7.68342 12.7071 7.29289L6.34315 0.928933C5.95262 0.538408 5.31946 0.538408 4.92893 0.928933C4.53841 1.31946 4.53841 1.95262 4.92893 2.34315L10.5858 8L4.92893 13.6569C4.53841 14.0474 4.53841 14.6805 4.92893 15.0711C5.31946 15.4616 5.95262 15.4616 6.34315 15.0711L12.7071 8.70711ZM-8.74228e-08 9L12 9L12 7L8.74228e-08 7L-8.74228e-08 9Z"
+                                        fill="#131313" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card w-[263.53px] h-[174px] mt-10 hover:shadow-md">
+                        <div class="box flex">
+                            <img class="h-10 w-10" src="./src/images/image 2569.png" alt="python">
+                            <div class="ml-3">
+                                <p class="font-xl text-tripleXl inter">Ai Services</p>
+                                <p class="text-green font-doubleXl text-xl inter">10,000 Hrs.</p>
+                            </div>
+                        </div>
+                        <div class="mt-2">
+                            <p class="text-grey font-md text-xl inter">Python is a high-level, versatile
+                                programming
+                                language that has gained immense popularity.</p>
+                        </div>
+                        <div class="flex mt-2">
+                            <p class="text-base	font-medium inter">View Coders</p>
+                            <div class="svg mt-1 ml-2"><svg width="13" height="16" viewBox="0 0 13 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.7071 8.70711C13.0976 8.31658 13.0976 7.68342 12.7071 7.29289L6.34315 0.928933C5.95262 0.538408 5.31946 0.538408 4.92893 0.928933C4.53841 1.31946 4.53841 1.95262 4.92893 2.34315L10.5858 8L4.92893 13.6569C4.53841 14.0474 4.53841 14.6805 4.92893 15.0711C5.31946 15.4616 5.95262 15.4616 6.34315 15.0711L12.7071 8.70711ZM-8.74228e-08 9L12 9L12 7L8.74228e-08 7L-8.74228e-08 9Z"
+                                        fill="#131313" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/4">
+                    <div class="card w-[263.53px] h-[174px] mt-10 ml-4 hover:shadow-md">
+                        <div class="box flex">
+                            <img class="h-10 w-10" src="./src/images/Ellipse 848.png" alt="python">
+                            <div class="ml-3">
+                                <p class="font-xl text-tripleXl inter">Mobile</p>
+                                <p class="text-green font-doubleXl text-xl inter">45,000 Hrs.</p>
+                            </div>
+                        </div>
+                        <div class="mt-2">
+                            <p class="text-grey font-md text-xl inter">Mobile technology has from the early days
+                                of basic cell phones to the modern .</p>
+                        </div>
+                        <div class="flex mt-2">
+                            <p class="text-base	font-medium inter">View Coders</p>
+                            <div class="svg mt-1 ml-2"><svg width="13" height="16" viewBox="0 0 13 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.7071 8.70711C13.0976 8.31658 13.0976 7.68342 12.7071 7.29289L6.34315 0.928933C5.95262 0.538408 5.31946 0.538408 4.92893 0.928933C4.53841 1.31946 4.53841 1.95262 4.92893 2.34315L10.5858 8L4.92893 13.6569C4.53841 14.0474 4.53841 14.6805 4.92893 15.0711C5.31946 15.4616 5.95262 15.4616 6.34315 15.0711L12.7071 8.70711ZM-8.74228e-08 9L12 9L12 7L8.74228e-08 7L-8.74228e-08 9Z"
+                                        fill="#131313" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card w-[263.53px] h-[174px] mt-10 ml-4 hover:shadow-md">
+                        <div class="box flex">
+                            <img class="h-10 w-10" src="./src/images/image 2567.png" alt="python">
+                            <div class="ml-3">
+                                <p class="font-xl text-tripleXl inter">React</p>
+                                <p class="text-green font-doubleXl text-xl inter">45,000 Hrs.</p>
+                            </div>
+                        </div>
+                        <div class="mt-2">
+                            <p class="text-grey font-md text-xl inter">Mobile technology has from the early days
+                                of basic cell phones to the modern .</p>
+                        </div>
+                        <div class="flex mt-2">
+                            <p class="text-base	font-medium inter">View Coders</p>
+                            <div class="svg mt-1 ml-2"><svg width="13" height="16" viewBox="0 0 13 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.7071 8.70711C13.0976 8.31658 13.0976 7.68342 12.7071 7.29289L6.34315 0.928933C5.95262 0.538408 5.31946 0.538408 4.92893 0.928933C4.53841 1.31946 4.53841 1.95262 4.92893 2.34315L10.5858 8L4.92893 13.6569C4.53841 14.0474 4.53841 14.6805 4.92893 15.0711C5.31946 15.4616 5.95262 15.4616 6.34315 15.0711L12.7071 8.70711ZM-8.74228e-08 9L12 9L12 7L8.74228e-08 7L-8.74228e-08 9Z"
+                                        fill="#131313" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card w-[263.53px] h-[174px] mt-10 ml-4 hover:shadow-md">
+                        <div class="box flex">
+                            <img class="h-10 w-10" src="./src/images/image 2571.png" alt="python">
+                            <div class="ml-3">
+                                <p class="font-xl text-tripleXl inter">MongoDB</p>
+                                <p class="text-green font-doubleXl text-xl inter">21,000 Hrs.</p>
+                            </div>
+                        </div>
+                        <div class="mt-2">
+                            <p class="text-grey font-md text-xl inter">Mobile technology has from the early days
+                                of basic cell phones to the modern .</p>
+                        </div>
+                        <div class="flex mt-2">
+                            <p class="text-base	font-medium inter">View Coders</p>
+                            <div class="svg mt-1 ml-2"><svg width="13" height="16" viewBox="0 0 13 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.7071 8.70711C13.0976 8.31658 13.0976 7.68342 12.7071 7.29289L6.34315 0.928933C5.95262 0.538408 5.31946 0.538408 4.92893 0.928933C4.53841 1.31946 4.53841 1.95262 4.92893 2.34315L10.5858 8L4.92893 13.6569C4.53841 14.0474 4.53841 14.6805 4.92893 15.0711C5.31946 15.4616 5.95262 15.4616 6.34315 15.0711L12.7071 8.70711ZM-8.74228e-08 9L12 9L12 7L8.74228e-08 7L-8.74228e-08 9Z"
+                                        fill="#131313" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/4">
+                    <div class="card w-[263.53px] h-[174px] mt-10 ml-9 hover:shadow-md">
+                        <div class="box flex">
+                            <img class="h-10 w-10" src="./src/images/Ellipse 849.png" alt="python">
+                            <div class="ml-3">
+                                <p class="font-xl text-tripleXl inter">UI</p>
+                                <p class="text-green font-doubleXl text-xl inter">45,000 Hrs.</p>
+                            </div>
+                        </div>
+                        <div class="mt-2">
+                            <p class="text-grey font-md text-xl inter">User Interface (UI) design is a crucial
+                                aspect of creating digital products that are</p>
+                        </div>
+                        <div class="flex mt-2">
+                            <p class="text-base	font-medium inter">View Coders</p>
+                            <div class="svg mt-1 ml-2"><svg width="13" height="16" viewBox="0 0 13 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.7071 8.70711C13.0976 8.31658 13.0976 7.68342 12.7071 7.29289L6.34315 0.928933C5.95262 0.538408 5.31946 0.538408 4.92893 0.928933C4.53841 1.31946 4.53841 1.95262 4.92893 2.34315L10.5858 8L4.92893 13.6569C4.53841 14.0474 4.53841 14.6805 4.92893 15.0711C5.31946 15.4616 5.95262 15.4616 6.34315 15.0711L12.7071 8.70711ZM-8.74228e-08 9L12 9L12 7L8.74228e-08 7L-8.74228e-08 9Z"
+                                        fill="#131313" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card w-[263.53px] h-[174px] mt-10 ml-9 hover:shadow-md">
+                        <div class="box flex">
+                            <img class="h-10 w-10" src="./src/images/Ellipse 842.png" alt="python">
+                            <div class="ml-3">
+                                <p class="font-xl text-tripleXl inter">NextJS</p>
+                                <p class="text-green font-doubleXl text-xl inter">45,000 Hrs.</p>
+                            </div>
+                        </div>
+                        <div class="mt-2">
+                            <p class="text-grey font-md text-xl inter">User Interface (UI) design is a crucial
+                                aspect of creating digital products that are</p>
+                        </div>
+                        <div class="flex mt-2">
+                            <p class="text-base	font-medium inter">View Coders</p>
+                            <div class="svg mt-1 ml-2"><svg width="13" height="16" viewBox="0 0 13 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.7071 8.70711C13.0976 8.31658 13.0976 7.68342 12.7071 7.29289L6.34315 0.928933C5.95262 0.538408 5.31946 0.538408 4.92893 0.928933C4.53841 1.31946 4.53841 1.95262 4.92893 2.34315L10.5858 8L4.92893 13.6569C4.53841 14.0474 4.53841 14.6805 4.92893 15.0711C5.31946 15.4616 5.95262 15.4616 6.34315 15.0711L12.7071 8.70711ZM-8.74228e-08 9L12 9L12 7L8.74228e-08 7L-8.74228e-08 9Z"
+                                        fill="#131313" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card w-[263.53px] h-[174px] mt-10 ml-9 hover:shadow-md">
+                        <div class="box flex">
+                            <img class="h-10 w-10" src="./src/images/image 2565.png" alt="python">
+                            <div class="ml-3">
+                                <p class="font-xl text-tripleXl inter">SQL</p>
+                                <p class="text-green font-doubleXl text-xl inter">45,000 Hrs.</p>
+                            </div>
+                        </div>
+                        <div class="mt-2">
+                            <p class="text-grey font-md text-xl inter">User Interface (UI) design is a crucial
+                                aspect of creating digital products that are</p>
+                        </div>
+                        <div class="flex mt-2">
+                            <p class="text-base	font-medium inter">View Coders</p>
+                            <div class="svg mt-1 ml-2"><svg width="13" height="16" viewBox="0 0 13 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.7071 8.70711C13.0976 8.31658 13.0976 7.68342 12.7071 7.29289L6.34315 0.928933C5.95262 0.538408 5.31946 0.538408 4.92893 0.928933C4.53841 1.31946 4.53841 1.95262 4.92893 2.34315L10.5858 8L4.92893 13.6569C4.53841 14.0474 4.53841 14.6805 4.92893 15.0711C5.31946 15.4616 5.95262 15.4616 6.34315 15.0711L12.7071 8.70711ZM-8.74228e-08 9L12 9L12 7L8.74228e-08 7L-8.74228e-08 9Z"
+                                        fill="#131313" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full sm:w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/4">
+                    <div class="card w-[263.53px] h-[174px] mt-10 ml-11 hover:shadow-md">
+                        <div class="box flex">
+                            <img class="w-10 h-10" src="./src/images/Ellipse 839.png" alt="python">
+                            <div class="ml-3">
+                                <p class="font-lg text-lg inter">Java</p>
+                                <p class="text-green text-base font-bold inter">45,000 Hrs.</p>
+                            </div>
+                        </div>
+                        <div class="mt-2">
+                            <p class="text-grey font-md text-xl inter">Java is a widely used, versatile, and
+                                platform-independent programming</p>
+                        </div>
+                        <div class="flex mt-2">
+                            <p class="text-base	font-medium inter">View Coders</p>
+                            <div class="svg mt-1 ml-2"><svg width="13" height="16" viewBox="0 0 13 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.7071 8.70711C13.0976 8.31658 13.0976 7.68342 12.7071 7.29289L6.34315 0.928933C5.95262 0.538408 5.31946 0.538408 4.92893 0.928933C4.53841 1.31946 4.53841 1.95262 4.92893 2.34315L10.5858 8L4.92893 13.6569C4.53841 14.0474 4.53841 14.6805 4.92893 15.0711C5.31946 15.4616 5.95262 15.4616 6.34315 15.0711L12.7071 8.70711ZM-8.74228e-08 9L12 9L12 7L8.74228e-08 7L-8.74228e-08 9Z"
+                                        fill="#131313" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card w-[263.53px] h-[174px] mt-10 ml-11 hover:shadow-md">
+                        <div class="box flex">
+                            <img class="h-10 w-10" src="./src/images/image 2568.png" alt="python">
+                            <div class="ml-3">
+                                <p class="font-lg text-lg inter">Angular</p>
+                                <p class="text-green text-base font-bold inter">45,000 Hrs.</p>
+                            </div>
+                        </div>
+                        <div class="mt-2">
+                            <p class="text-grey text-base font-normal inter">Java is a widely used, versatile, and
+                                platform-independent programming</p>
+                        </div>
+                        <div class="flex mt-2">
+                            <p class="text-base	font-medium inter">View Coders</p>
+                            <div class="svg mt-1 ml-2"><svg width="13" height="16" viewBox="0 0 13 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.7071 8.70711C13.0976 8.31658 13.0976 7.68342 12.7071 7.29289L6.34315 0.928933C5.95262 0.538408 5.31946 0.538408 4.92893 0.928933C4.53841 1.31946 4.53841 1.95262 4.92893 2.34315L10.5858 8L4.92893 13.6569C4.53841 14.0474 4.53841 14.6805 4.92893 15.0711C5.31946 15.4616 5.95262 15.4616 6.34315 15.0711L12.7071 8.70711ZM-8.74228e-08 9L12 9L12 7L8.74228e-08 7L-8.74228e-08 9Z"
+                                        fill="#131313" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card w-[263.53px] h-[174px] mt-10 ml-11 hover:shadow-md">
+                        <div class="box flex">
+                            <img class="h-10 w-10" src="./src/images/Ellipse 848 (1).png" alt="python">
+                            <div class="ml-3">
+                                <p class="font-lg text-lg inter">Backend</p>
+                                <p class="text-green text-base font-bold inter">45,000 Hrs.</p>
+                            </div>
+                        </div>4
+                        <div class="mt-2">
+                            <p class="text-grey text-base font-normal inter">Java is a widely used, versatile, and
+                                platform-independent programming</p>
+                        </div>
+                        <div class="flex mt-2">
+                            <p class="text-base	font-medium inter">View Coders</p>
+                            <div class="svg mt-1 ml-2"><svg width="13" height="16" viewBox="0 0 13 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.7071 8.70711C13.0976 8.31658 13.0976 7.68342 12.7071 7.29289L6.34315 0.928933C5.95262 0.538408 5.31946 0.538408 4.92893 0.928933C4.53841 1.31946 4.53841 1.95262 4.92893 2.34315L10.5858 8L4.92893 13.6569C4.53841 14.0474 4.53841 14.6805 4.92893 15.0711C5.31946 15.4616 5.95262 15.4616 6.34315 15.0711L12.7071 8.70711ZM-8.74228e-08 9L12 9L12 7L8.74228e-08 7L-8.74228e-08 9Z"
+                                        fill="#131313" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container mx-auto w-4/5">
+            <div class="flex flex-wrap">
+                <div class="w-full lg:w-6/12">
+                    <h1 class="font-xl text-fiveXl ">How it <span class="text-green">Works</span> </h1>
+                    <div class="flex">
+                        <img src="/src/images/svg/Logo trade.svg" alt="">
+
+                        <div>
+                            <p class=" font-xl text-fourXl pl-4 hover:text-green">Video interview the experts</p>
+
+                            <p class="w-[361.89px] text-grey pl-4 pt-2">Live video chat & Hire Top 1% Global coder in a
+                                click.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <img src="/src/images/svg/Logo trade 1.svg" alt="">
+
+                        <div>
+                            <p class=" font-xl text-fourXl pl-4 hover:text-green">Hire Expert coder</p>
+
+                            <p class="w-[269.6px] text-grey pl-4 pt-2">Assign Project & Tasks for your project.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-2">
+                        <img class="" src="/src/images/svg/Logo trade-2.svg" alt="">
+
+                        <div>
+                            <p class=" font-xl text-fourXl pl-4 hover:text-green">Get quality work done</p>
+
+                            <p class="w-[282.55px] h-[48px] text-grey pl-4 pt-2">Scrum & Project Delivery Managed by Us
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <img src="/src/images/svg/Logo trade-4.svg" alt="">
+
+                        <div>
+                            <p class=" font-xl text-fourXl pl-4 hover:text-green">Pay when you’re satisfied</p>
+
+                            <p class="w-[374.04px] h-[48px] text-grey pl-4 pt-2">Pay Only when task is done as Scrum
+                                Managed
+                                by Us.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full lg:w-6/12">
+                    <img src="/src/images/Mesa de trabajo 1 1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-img-5 h-[361px] bg-[#131314] items-center">
+        <div class="container mx-auto w-4/5 flex pt-[70px]">
+            <div class="w-3/12">
+                <img class="items-center flex justify-center" src="/src/images/svg/fire coder.svg" alt="">
+
+                <p class="font-sm text-grey text-sm">Video chat & Remote Coder OnDemand</p>
+
+                <p class="max-w-[266px] h-[96px] text-grey font-md  ">We take pride in our team dedicated coders,
+                    continuously striving for you excellence in every project.</p>
+            </div>
+            <div class="w-9/12 flex">
+                <div class="w-2/12">
+                    <p class="text-white font-md text-xl">Home</p>
+                    <p class="font-md text-lg text-grey  hover:text-green">Portfolio</p>
+                    <p class="font-md text-lg text-grey  hover:text-green">Careers</p>
+                    <p class="font-md text-lg text-grey  hover:text-green">Contact Us</p>
+                </div>
+
+                <div class="w-2/12">
+                    <p class="text-white font-md text-xl">About Us</p>
+                    <p class="font-md text-lg text-grey  hover:text-green">Our Team</p>
+                    <p class="font-md text-lg text-grey  hover:text-green">FAQs</p>
+                    <p class="font-md text-lg text-grey  hover:text-green">Testimonials</p>
+                </div>
+
+                <div class="w-2/12">
+                    <p class="text-white font-md text-xl">Services</p>
+                    <p class="font-md text-lg text-grey  hover:text-green">Terms of Service</p>
+                    <p class="font-md text-lg text-grey  hover:text-green">Privacy Policy</p>
+                    <p class="font-md text-lg text-grey  hover:text-green">Careers</p>
+                </div>
+
+                <div class="w-3/12">
+                    <p class="text-white font-md text-xl">Contact Us</p>
+                    <p class=""> <span class="text-white font-md text-lg hover:text-green">Call :</span> <span
+                            class="font-md text-lg text-grey hover:text-green">(316) 618 - 4557</span> </p>
+                    <p class=""> <span class="text-white font-md text-lg hover:text-green">Text:</span> <span
+                            class="font-md text-lg text-grey hover:text-green">(316) 618 - 4557</span> </p>
+                </div>
+
+                <div class="w-3/12">
+                    <p class="text-white font-md text-xl">Follow Us</p>
+                    <div class="flex gap-3 mt-3">
+                        <img src="/src/images/svg/ant-design_instagram-filled.svg" alt="">
+                        <img src="/src/images/svg/ic_sharp-facebook.svg" alt="">
+                        <img src="src/images/svg/mdi_twitter.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div
+            class=" inter font-md text-md text-darkGrey justify-center flex border-t border-[#353535] pt-[15px] pb-[21px] mt-[70px]">
+            <p class="text-grey"> Copyright © 2023 Hire Coder, All Rights Reserved. </p>
+        </div>
+    </footer>
+
+    <script>
+        const nav = document.getElementById("mobile_navbar")
+        const toggleButton = document.getElementById("toggle_button")
+        const toggleButtonShowNav = document.querySelector("#toggle_button .show_nav")
+        const toggleButtonCloseNav = document.querySelector("#toggle_button .close_nav")
+        toggleButton.addEventListener("click",
+            function () {
+                nav.classList.toggle("max-lg:translate-x-full")
+                toggleButtonShowNav.classList.toggle("opacity-0")
+                toggleButtonCloseNav.classList.toggle("opacity-0")
+                console.log("nav")
+            }
+        )
+    </script>
+
+    <!-- slider  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- end  -->
+
+
+
+    <!-- first slider -->
+    <script>
+        $('.show-seven').slick({
+            dots: false,
+            arrow: false,
+            slidesToShow: 7,
+            slidesToScroll: 1,
+            autoplaySpeed: 3000,
+
+            responsive: [
+                {
+                    breakpoint: 1400,
+                    settings: {
+                        slidesToShow: 5,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 1300,
+                    settings: {
+                        slidesToShow: 5,
+                        slidesToScroll: 2
+                    }
+                },
+
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 786,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+
+        });
+    </script>
+    <!-- second slider  -->
+    <script>
+        $('.show-six').slick({
+            dots: false,
+            arrow: true,
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplaySpeed: 3000,
+
+            responsive: [
+                {
+                    breakpoint: 1300,
+                    settings: {
+                        slidesToShow: 6,
+                        slidesToScroll: 2
+                    }
+                },
+
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 5,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 786,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 390,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+
+        });
+    </script>
+</body>
+
+</html>
+
+</body>
+
+</html>

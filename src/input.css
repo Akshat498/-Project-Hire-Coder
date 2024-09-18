@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url(./output.css);
+@import url(./output.css);
+
+.bg-image{background-image: url(/src/images/background.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.image{
+    background-image: url(/src/images/section.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img{
+    background-image: url(./images/sec-12.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.personSlider .slick-prev:before {
+    content: "";
+    background-color: red;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.personSlider .slick-prev:before {
+    content: "";
+    background-color: white;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.first-slider .slick-next:before {
+
+    display: none;
+}
+
+.first-slider .slick-prev:before {
+
+    display: none;
+}
+.bg-img-5{
+    background-image: url(/src/images/image\ 7.png);
+    background-repeat: no-repeat;
+    background: cover;
+}
+
+
+.first-slider .slick-next:before{
+    
+    display: none;
+}
+.first-slider .slick-prev:before{
+    
+    display: none;
+}
+.heading{
+    max-width: 523.81px;
+}
+
+.target{
+    max-width: 679px;
+}
+.short-para{
+    max-width: 659.75px;
+}
+.card-1{
+    max-width: 218px;
+}
