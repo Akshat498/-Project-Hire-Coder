@@ -76,3 +76,24 @@ background-size: cover;
 .card-1{
     max-width: 218px;
 }
+
+.circle:hover {
+    border: 2px solid white;
+    background: #14A800;
+    transition: all 400ms;
+
+    path {
+        fill: white;
+    }
+}
+.circle {
+    display: flex;
+    align-items: center;
+}
+.svg-2:hover {
+    transition: all 400ms;
+
+    path {
+        fill: green;
+    }
+}
